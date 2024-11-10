@@ -1,0 +1,38 @@
+.say{
+    text-align: center;
+    font-size: 50px;
+}
+
+.cards{
+    display: flex;
+   gap: 100px;
+    justify-content: center;
+    align-items: center;
+
+   @media (max-width:800px) {
+    flex-direction: column;
+    gap: 20px;
+   }
+    .card{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #F6F6F6;
+        border-radius: 25px;
+        padding: 35px;
+    }
+   
+}
+
+.test{
+     display: flex;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     color: #272d3883;
+     margin-bottom: 15px;
+
+}

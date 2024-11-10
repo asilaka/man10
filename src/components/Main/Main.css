@@ -1,0 +1,38 @@
+.part{
+    margin-top: 100px;
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+
+    h1{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width:800px) {
+        flex-direction: column;
+        text-align: center;
+        h1{
+            font-size: 50px;
+        }
+    }
+  
+}
+
+.next{
+    button{
+        width: 160px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background-color: #8eadd5;
+        cursor: pointer;
+        transition: 1s;
+        font-size: 20px;
+        font-weight: 1000;
+        color: white;
+        margin-top: 24px;
+    }
+}
