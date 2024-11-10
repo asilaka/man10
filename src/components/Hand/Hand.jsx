@@ -5,7 +5,7 @@ const Hand = () => {
 <>
 <section>
     <div className="container">
-<div className="card1">
+<div div className="card1">
 <div className="costume">
 <h1>Custome & Plugin
 Development</h1>
